@@ -1,6 +1,6 @@
-import express from 'express'
+import { Router } from 'express'
 import HomeController from '../controllers/HomeController.js'
-const router = express.Router()
+const router = Router()
 
 router.get('/', HomeController.index)
 
